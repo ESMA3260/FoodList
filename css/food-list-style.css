@@ -1,0 +1,145 @@
+/*food-list-style.css*/
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-bottom: 60px;
+}
+
+.header_container{
+    width: 100%;
+    height: 500px;
+    
+}
+#header_img{
+    width: 100%;
+    height: 100%;
+    opacity: rgba(0, 0, 0, .3);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0,
+    .3)), url(../images/header.jpg);
+    background-size: cover;
+    
+}
+.img_text{
+    position: absolute;
+    top: 250px;
+    width:100%;
+    color: white;
+}
+
+.img_text div{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    
+}
+.img_text h2{
+    size: 36px;
+    font-weight:  normal;
+    font-family: 'Roboto Slab', serif;
+    max-width: 780px;
+}
+
+#profile_img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/profile.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    border: white solid 1px;
+  }
+#profile_img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.profile_info{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.profile_info h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+
+}
+.profile_info p{
+    margin: 0px;
+    font-style: italic;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+    text-decoration-line:underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #e6e6e6;
+}
+
+
+
+section{
+
+}
+
+.title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51) ;
+}
+.title b{
+    color: rgba(0, 0, 0, 0.25) ;
+}
+
+.content a {
+    color: #42b4d6;
+    text-decoration: none;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+
+section .container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 66.67%;
+}
+
+.content{
+    width: auto;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+.paragraf{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+}
+
+.content h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.content div img{
+    width: 100%;
+    margin-bottom: 120px;
+}
